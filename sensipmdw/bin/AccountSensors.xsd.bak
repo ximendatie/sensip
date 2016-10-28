@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="Name" type="xs:string"/>
+<xs:element name="LastName" type="xs:string"/>
+<xs:element name="FirstName" type="xs:string"/>
+<xs:element name="Age" type="xs:positiveInteger"/>
+<xs:element name="IsFemale" type="xs:boolean"/>
+<xs:element name="RFIDReader" type="xs:string"/>
+<xs:element name="RFIDTag" type="xs:string"/>
+<xs:element name="HimiditySensor" type="xs:string"/>
+<xs:element name="TemperatureSensor" type="xs:string"/>
+<xs:element name="BloodPressure" type="xs:string"/>
+<xs:element name="HeartRate" type="xs:string"/>
+
+<!-- definition of attributes -->
+
+<!-- definition of complex elements -->
+
+<xs:element name="Zone">
+  <xs:complexType>
+    <xs:sequence>
+    	<xs:element ref="Name"/>
+      <xs:element ref="RFIDReader"/>
+      <xs:element ref="HimiditySensor"/>
+      <xs:element ref="TemperatureSensor"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="People">
+  <xs:complexType>
+    <xs:sequence>
+    	<xs:element ref="FullName"/>
+    	<xs:element ref="LastName"/>
+    	<xs:element ref="FirstName"/>
+    	<xs:element ref="Age"/>
+    	<xs:element ref="IsFemale"/>
+    	<xs:element ref="RFIDTag"/>
+      <xs:element ref="TemperatureSensor"/>
+      <xs:element ref="BloodPressure"/>
+      <xs:element ref="HeartRate"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Asset">
+  <xs:complexType>
+    <xs:sequence>
+    	<xs:element ref="Name"/>
+      <xs:element ref="RFIDTag"/>
+    </xs:sequence>  
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

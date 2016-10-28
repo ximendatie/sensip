@@ -1,0 +1,16 @@
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\bin\Debug\xmlDbEditor.exe
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\bin\Debug\xmlDbEditor.pdb
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\obj\Debug\ResolveAssemblyReference.cache
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\obj\Debug\xmlDbEditor.Form1.resources
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\obj\Debug\xmlDbEditor.csproj.GenerateResource.Cache
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\obj\Debug\xmlDbEditor.exe
+C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\obj\Debug\xmlDbEditor.pdb
+E:\sensip_mdw\sensipmdw\xmlDbEditor\obj\Debug\xmlDbEditor.exe
+E:\sensip_mdw\sensipmdw\xmlDbEditor\obj\Debug\xmlDbEditor.pdb
+E:\sensip_mdw\sensipmdw\xmlDbEditor\obj\Debug\ResolveAssemblyReference.cache
+E:\sensip_mdw\sensipmdw\xmlDbEditor\obj\Debug\xmlDbEditor.Form1.resources
+E:\sensip_mdw\sensipmdw\xmlDbEditor\obj\Debug\xmlDbEditor.csproj.GenerateResource.Cache
+E:\sensip_mdw\sensipmdw\xmlDbEditor\bin\Debug\xmlDbEditor.exe
+E:\sensip_mdw\sensipmdw\xmlDbEditor\bin\Debug\xmlDbEditor.pdb
+E:\sensip_mdw\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.exe
+E:\sensip_mdw\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.pdb

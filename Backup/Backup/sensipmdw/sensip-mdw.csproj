@@ -1,0 +1,391 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AB5A5D3-50CC-4005-A5F5-F4FEB773262D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sensip</RootNamespace>
+    <AssemblyName>sensip-mdw</AssemblyName>
+    <ManifestCertificateThumbprint>DA6B9EF4563F33236E3D1708CCDCCBD9C9226C4E</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Gui_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>factory.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SVGACTIVEXLib, Version=3.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\AxInterop.SVGACTIVEXLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CompiledRules0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\CompiledRules0.dll</HintPath>
+    </Reference>
+    <Reference Include="drools-3.0, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\drools-3.0.dll</HintPath>
+    </Reference>
+    <Reference Include="drools-dep, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\drools-dep.dll</HintPath>
+    </Reference>
+    <Reference Include="drools.dotnet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\drools.dotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.GNU.Classpath, Version=0.28.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\IKVM.GNU.Classpath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime, Version=0.28.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SpeechLib, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Interop.SpeechLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SVGACTIVEXLib, Version=3.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Interop.SVGACTIVEXLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=a48193f4f98f3dcd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQLDriverCS, Version=3.0.1735.36021, Culture=neutral, PublicKeyToken=172f94dfb0faf263, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\MySQLDriverCS\dll\MySQLDriverCS.dll</HintPath>
+    </Reference>
+    <Reference Include="NEsper, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NEsper.dll</HintPath>
+    </Reference>
+    <Reference Include="NEsper.Tests, Version=1.0.3192.12906, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\NEsper.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.1.9189, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="pjsipDll, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\pjsipDll.dll</HintPath>
+    </Reference>
+    <Reference Include="SYRIS_XTIVE_STANDARD_READER_1N, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\SYRIS_XTIVE_STANDARD_READER_1N.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WaveLibMixer, Version=1.0.2927.30170, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\WaveLibMixer.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.0.9.41461, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountSettings.cs" />
+    <Compile Include="asset.cs" />
+    <Compile Include="BuddyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuddyForm.Designer.cs">
+      <DependentUpon>BuddyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calllog.cs" />
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\Common\AbstractFactory.cs" />
+    <Compile Include="Communication\Common\AbstractWrapper.cs" />
+    <Compile Include="Communication\Common\CallControl\callManager.cs" />
+    <Compile Include="Communication\Common\CallControl\callStateMachine.cs" />
+    <Compile Include="Communication\Common\CallControl\callStates.cs" />
+    <Compile Include="Communication\Common\Enums.cs" />
+    <Compile Include="Communication\Common\IAbstractState.cs" />
+    <Compile Include="Communication\Common\ICallLogInterface.cs" />
+    <Compile Include="Communication\Common\IConfiguratorInterface.cs" />
+    <Compile Include="Communication\Common\IMediaInterface.cs" />
+    <Compile Include="Communication\Common\IPresenceAndMessaging.cs" />
+    <Compile Include="Communication\Common\IRegistrar.cs" />
+    <Compile Include="Communication\Common\IStateMachine.cs" />
+    <Compile Include="Communication\Common\ITimerInterface.cs" />
+    <Compile Include="Communication\Sip\pjsipCallWrapper.cs" />
+    <Compile Include="Communication\Sip\pjsipConfig.cs" />
+    <Compile Include="Communication\Sip\pjsipPresenceAndMessaging.cs" />
+    <Compile Include="Communication\Sip\pjsipRegistrar.cs" />
+    <Compile Include="Communication\Sip\pjsipWrapper.cs" />
+    <Compile Include="DataProcessing\Crossbow.cs" />
+    <Compile Include="DataProcessing\DataProcessing.cs" />
+    <Compile Include="DataProcessing\RTDataManager.cs" />
+    <Compile Include="DataProcessing\XtiveDP.cs" />
+    <Compile Include="Elements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elements.designer.cs">
+      <DependentUpon>Elements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InferModel\CEPManager.cs" />
+    <Compile Include="InferModel\Alarms\AlarmListener.cs" />
+    <Compile Include="InferModel\Alarms\AlarmStmt.cs" />
+    <Compile Include="InferModel\ZoneTemperature.cs" />
+    <Compile Include="InferModel\ZoneTemp\ZoneTempListener.cs" />
+    <Compile Include="InferModel\ZoneTemp\ZoneTempStmt.cs" />
+    <Compile Include="InferModel\ZoneHumidity\ZoneHumidityListener.cs" />
+    <Compile Include="InferModel\ZoneHumidity\ZoneHumidityStmt.cs" />
+    <Compile Include="InferModel\MotionStatus\MotionStatusListener.cs" />
+    <Compile Include="InferModel\MotionStatus\MotionStatusStmt.cs" />
+    <Compile Include="InferModel\ZoneHumidity.cs" />
+    <Compile Include="InferModel\ObjLocation.cs" />
+    <Compile Include="InferModel\ObjTemperature.cs" />
+    <Compile Include="InferModel\ObjTemp\ObjTempListener.cs" />
+    <Compile Include="InferModel\ObjTemp\ObjTempStmt.cs" />
+    <Compile Include="InferModel\ReadRate.cs" />
+    <Compile Include="InferModel\ZoneObjs\ZoneObjsListener.cs" />
+    <Compile Include="InferModel\ZoneObjs\ZoneObjsStmt.cs" />
+    <Compile Include="Language\LanguageParser.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjBase.cs" />
+    <Compile Include="people.cs" />
+    <Compile Include="phonebook.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyGridFileItem.cs" />
+    <Compile Include="RowWrapper.cs" />
+    <Compile Include="ServerConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerConfig.Designer.cs">
+      <DependentUpon>ServerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuddyForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BuddyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elements.resx">
+      <DependentUpon>Elements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\LanguageRules.drl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartRFIDFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StartRFIDFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorDialog.Designer.cs">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SipekFactory.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartRFIDFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartRFIDFrm.Designer.cs">
+      <DependentUpon>StartRFIDFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UtilClasses.cs" />
+    <Compile Include="VoiceManager.cs" />
+    <Compile Include="zone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="factory.ico" />
+    <Content Include="Resources\Dial.png" />
+    <Content Include="Resources\DialOV.png" />
+    <Content Include="Resources\DialPad0.png" />
+    <Content Include="Resources\DialPad0OV.png" />
+    <Content Include="Resources\DialPad1.png" />
+    <Content Include="Resources\DialPad1OV.png" />
+    <Content Include="Resources\DialPad2.png" />
+    <Content Include="Resources\DialPad2OV.png" />
+    <Content Include="Resources\DialPad3.png" />
+    <Content Include="Resources\DialPad3OV.png" />
+    <Content Include="Resources\DialPad4.png" />
+    <Content Include="Resources\DialPad4OV.png" />
+    <Content Include="Resources\DialPad5.png" />
+    <Content Include="Resources\DialPad5OV.png" />
+    <Content Include="Resources\DialPad6.png" />
+    <Content Include="Resources\DialPad6OV.png" />
+    <Content Include="Resources\DialPad7.png" />
+    <Content Include="Resources\DialPad7OV.png" />
+    <Content Include="Resources\DialPad8.png" />
+    <Content Include="Resources\DialPad8OV.png" />
+    <Content Include="Resources\DialPad9.png" />
+    <Content Include="Resources\DialPad9OV.png" />
+    <Content Include="Resources\DialPadHash.png" />
+    <Content Include="Resources\DialPadHashOV.png" />
+    <Content Include="Resources\DialPadStar.png" />
+    <Content Include="Resources\DialPadStarOV.png" />
+    <None Include="Resources\filenew.bmp" />
+    <None Include="Resources\filesave.bmp" />
+    <Content Include="Resources\Hangup.png" />
+    <Content Include="Resources\HangupOV.png" />
+    <None Include="Resources\insert.bmp" />
+    <Content Include="Resources\keyboard_key.png" />
+    <Content Include="Resources\loudspeaker.png" />
+    <Content Include="Resources\loudspeaker_add.png" />
+    <Content Include="Resources\loudspeaker_delete.png" />
+    <Content Include="Resources\loudspeaker_edit.png" />
+    <Content Include="Resources\loudspeaker_network.png" />
+    <Content Include="Resources\loudspeaker_pause.png" />
+    <Content Include="Resources\loudspeaker_preferences.png" />
+    <Content Include="Resources\loudspeaker_run.png" />
+    <Content Include="Resources\loudspeaker_stop.png" />
+    <Content Include="Resources\microphone1.png" />
+    <Content Include="Resources\microphone2.png" />
+    <Content Include="Resources\phone_call.png" />
+    <Content Include="Resources\phone_conference.png" />
+    <Content Include="Resources\phone_hang_up.png" />
+    <Content Include="Resources\phone_hold.png" />
+    <Content Include="Resources\phone_pick_up.png" />
+    <Content Include="Resources\phone_recall.png" />
+    <Content Include="Resources\phone_redirect.png" />
+    <Content Include="Resources\phone_reject.png" />
+    <Content Include="Resources\phone_speaker.png" />
+    <EmbeddedResource Include="Resources\trash.bmp" />
+    <EmbeddedResource Include="ServerConfig.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="InferModel\Others\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

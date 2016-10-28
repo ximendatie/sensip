@@ -1,0 +1,868 @@
+ 14:06:18.646 sip_endpoint.c  Module "mod-pjsua-log" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-tsx-layer" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-stateful-util" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-ua" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-100rel" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-pjsua" registered
+ 14:06:18.646 sip_endpoint.c  Module "mod-invite" registered
+ 14:06:18.646       pa_dev.c  PA message: before paHostApiInitializers[0].
+
+ 14:06:18.880       pa_dev.c  PA message: after paHostApiInitializers[0].
+
+ 14:06:18.880       pa_dev.c  PA message: before paHostApiInitializers[1].
+
+ 14:06:19.021       pa_dev.c  PA message: after paHostApiInitializers[1].
+
+ 14:06:19.021       pa_dev.c  PA message: before paHostApiInitializers[2].
+
+ 14:06:19.021       pa_dev.c  PA message: after paHostApiInitializers[2].
+
+ 14:06:19.021       pa_dev.c  PortAudio sound library initialized, status=0
+ 14:06:19.021       pa_dev.c  PortAudio host api count=3
+ 14:06:19.021       pa_dev.c  Sound device count=10
+ 14:06:19.021     wmme_dev.c  WMME initialized, found 4 devices:
+ 14:06:19.036     wmme_dev.c   dev_id 0: Wave mapper  (in=2, out=2)
+ 14:06:19.036     wmme_dev.c   dev_id 1: Âó¿Ë·ç (USB Audio Device)  (in=2, out=0)
+ 14:06:19.036     wmme_dev.c   dev_id 2: Á¢ÌåÉù»ìÒô (Realtek High Defini  (in=2, out=0)
+ 14:06:19.036     wmme_dev.c   dev_id 3: ÑïÉùÆ÷ (USB Audio Device)  (in=0, out=2)
+ 14:06:19.036          pjlib  WinNT IOCP I/O Queue created (0BBC7C54)
+ 14:06:19.036   conference.c  Creating conference bridge with 254 ports
+ 14:06:19.052 sip_endpoint.c  Module "mod-evsub" registered
+ 14:06:19.052 sip_endpoint.c  Module "mod-presence" registered
+ 14:06:19.052        evsub.c  Event pkg "presence" registered by mod-presence
+ 14:06:19.052 sip_endpoint.c  Module "mod-refer" registered
+ 14:06:19.052        evsub.c  Event pkg "refer" registered by mod-refer
+ 14:06:19.052 sip_endpoint.c  Module "mod-pjsua-pres" registered
+ 14:06:19.052 sip_endpoint.c  Module "mod-pjsua-im" registered
+ 14:06:19.052 sip_endpoint.c  Module "mod-pjsua-options" registered
+ 14:06:19.052   pjsua_core.c  1 SIP worker threads created
+ 14:06:19.052   pjsua_core.c  pjsua version 1.3 for win32 initialized
+ 14:06:19.067   pjsua_core.c  SIP UDP socket reachable at 192.168.2.101:5060
+ 14:06:19.067    udp0BBCA6F0  SIP UDP transport started, published address is 192.168.2.101:5060
+ 14:06:19.067    pjsua_acc.c  Account <sip:192.168.2.101:5060> added with id 0
+ 14:06:19.067    tcplis:5060  SIP TCP listener ready for incoming connections at 192.168.2.101:5060
+ 14:06:19.067    pjsua_acc.c  Account <sip:192.168.2.101:5060;transport=TCP> added with id 1
+ 14:06:19.083  pjsua_media.c  RTP socket reachable at 192.168.2.101:4000
+ 14:06:19.083  pjsua_media.c  RTCP socket reachable at 192.168.2.101:4001
+ 14:06:19.083  pjsua_media.c  RTP socket reachable at 192.168.2.101:4002
+ 14:06:19.083  pjsua_media.c  RTCP socket reachable at 192.168.2.101:4003
+ 14:06:19.083  pjsua_media.c  RTP socket reachable at 192.168.2.101:4004
+ 14:06:19.083  pjsua_media.c  RTCP socket reachable at 192.168.2.101:4005
+ 14:06:19.083  pjsua_media.c  RTP socket reachable at 192.168.2.101:4006
+ 14:06:19.083  pjsua_media.c  RTCP socket reachable at 192.168.2.101:4007
+ 14:06:19.099 sip_endpoint.c  Module "My-Module" registered
+ 14:06:19.099    pjsua_acc.c  Account id 0 deleted
+ 14:06:19.099    pjsua_acc.c  Account id 1 deleted
+ 14:06:19.099    pjsua_acc.c  Account sip:username@127.0.0.1 added with id 0
+ 14:06:19.099       endpoint  Request msg REGISTER/cseq=45188 (tdta0BBE1B40) created.
+ 14:06:19.099    tsx0BBE2BAC  Transaction created for Request msg REGISTER/cseq=45189 (tdta0BBE1B40)
+ 14:06:19.099    tsx0BBE2BAC  Sending Request msg REGISTER/cseq=45189 (tdta0BBE1B40) in state Null
+ 14:06:19.099  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:06:19.099   pjsua_core.c  TX 426 bytes Request msg REGISTER/cseq=45189 (tdta0BBE1B40) to UDP 127.0.0.1:5060:
+REGISTER sip:127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj2be4d45c7d4445e180e9a4c70cd4f445
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=6a25577f5ca1498da13bf6ed9a245152
+To: <sip:username@127.0.0.1>
+Call-ID: d53911f8c46e4ae0a83048d29ec69c5f
+CSeq: 45189 REGISTER
+User-Agent: Sipek on PJSUA v1.3/win32
+Contact: <sip:username@192.168.2.101:5060>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.099    tsx0BBE2BAC  State changed from Null to Calling, event=TX_MSG
+ 14:06:19.099    pjsua_acc.c  Registration sent
+ 14:06:19.099 sip_endpoint.c  Processing incoming message: Request msg REGISTER/cseq=45189 (rdata0BBD6B6C)
+ 14:06:19.099   pjsua_core.c  RX 426 bytes Request msg REGISTER/cseq=45189 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+REGISTER sip:127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj2be4d45c7d4445e180e9a4c70cd4f445
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=6a25577f5ca1498da13bf6ed9a245152
+To: <sip:username@127.0.0.1>
+Call-ID: d53911f8c46e4ae0a83048d29ec69c5f
+CSeq: 45189 REGISTER
+User-Agent: Sipek on PJSUA v1.3/win32
+Contact: <sip:username@192.168.2.101:5060>
+Expires: 3600
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.301   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
+ 14:06:19.738       endpoint  Response msg 200/REGISTER/cseq=45189 (tdta0BBE3570) created
+ 14:06:19.738   pjsua_core.c  TX 318 bytes Response msg 200/REGISTER/cseq=45189 (tdta0BBE3570) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj2be4d45c7d4445e180e9a4c70cd4f445
+Call-ID: d53911f8c46e4ae0a83048d29ec69c5f
+From: <sip:username@127.0.0.1>;tag=6a25577f5ca1498da13bf6ed9a245152
+To: <sip:username@127.0.0.1>
+CSeq: 45189 REGISTER
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.738   tdta0BBE3570  Destroying txdata Response msg 200/REGISTER/cseq=45189 (tdta0BBE3570)
+ 14:06:19.738 sip_endpoint.c  Processing incoming message: Response msg 200/REGISTER/cseq=45189 (rdata0BBD6B6C)
+ 14:06:19.738   pjsua_core.c  RX 318 bytes Response msg 200/REGISTER/cseq=45189 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj2be4d45c7d4445e180e9a4c70cd4f445
+Call-ID: d53911f8c46e4ae0a83048d29ec69c5f
+From: <sip:username@127.0.0.1>;tag=6a25577f5ca1498da13bf6ed9a245152
+To: <sip:username@127.0.0.1>
+CSeq: 45189 REGISTER
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.738    tsx0BBE2BAC  Incoming Response msg 200/REGISTER/cseq=45189 (rdata0BBD6B6C) in state Calling
+ 14:06:19.738    tsx0BBE2BAC  State changed from Calling to Completed, event=RX_MSG
+ 14:06:19.738    pjsua_acc.c  sip:username@127.0.0.1: registration success, status=200 (OK), will re-register in 3600 seconds
+ 14:06:19.738    pjsua_acc.c  Keep-alive timer started for acc 0, destination:127.0.0.1:5060, interval:15s
+ 14:06:19.738       endpoint  Request msg PUBLISH/cseq=18508 (tdta0BBE3D80) created.
+ 14:06:19.738    tsx0BBE4DEC  Transaction created for Request msg PUBLISH/cseq=18509 (tdta0BBE3D80)
+ 14:06:19.738    tsx0BBE4DEC  Sending Request msg PUBLISH/cseq=18509 (tdta0BBE3D80) in state Null
+ 14:06:19.738  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:06:19.738   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=18509 (tdta0BBE3D80) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj4e90578035644e76a62224542e6876f8
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=d5f55620b8fc4ceea8f3b913eff57a55
+To: <sip:username@127.0.0.1>
+Call-ID: 029d4a40178a4e5e8403f1bf96b79b2e
+CSeq: 18509 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="4592e452172c4c989529efe15fcf3907">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:06:19.738    tsx0BBE4DEC  State changed from Null to Calling, event=TX_MSG
+ 14:06:19.754   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
+ 14:06:19.785   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
+ 14:06:19.785   pjsipDll.cpp  Setting codec (PCMA/8000/1) prio: 128
+ 14:06:19.785 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=18509 (rdata0BBD6B6C)
+ 14:06:19.785   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=18509 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj4e90578035644e76a62224542e6876f8
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=d5f55620b8fc4ceea8f3b913eff57a55
+To: <sip:username@127.0.0.1>
+Call-ID: 029d4a40178a4e5e8403f1bf96b79b2e
+CSeq: 18509 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="4592e452172c4c989529efe15fcf3907">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:06:19.785       endpoint  Response msg 200/PUBLISH/cseq=18509 (tdta0BBE6538) created
+ 14:06:19.785   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=18509 (tdta0BBE6538) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj4e90578035644e76a62224542e6876f8
+Call-ID: 029d4a40178a4e5e8403f1bf96b79b2e
+From: <sip:username@127.0.0.1>;tag=d5f55620b8fc4ceea8f3b913eff57a55
+To: <sip:username@127.0.0.1>
+CSeq: 18509 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.785   tdta0BBE6538  Destroying txdata Response msg 200/PUBLISH/cseq=18509 (tdta0BBE6538)
+ 14:06:19.785 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=18509 (rdata0BBD6B6C)
+ 14:06:19.785   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=18509 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj4e90578035644e76a62224542e6876f8
+Call-ID: 029d4a40178a4e5e8403f1bf96b79b2e
+From: <sip:username@127.0.0.1>;tag=d5f55620b8fc4ceea8f3b913eff57a55
+To: <sip:username@127.0.0.1>
+CSeq: 18509 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:06:19.801   pjsipDll.cpp  Setting codec (G722/16000/1) prio: 0
+ 14:06:20.549    tsx0BBE4DEC  Incoming Response msg 200/PUBLISH/cseq=18509 (rdata0BBD6B6C) in state Calling
+ 14:06:20.549    tsx0BBE4DEC  State changed from Calling to Completed, event=RX_MSG
+ 14:06:20.581   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
+ 14:06:20.596   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
+ 14:06:20.612   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
+ 14:06:20.612   pjsipDll.cpp  Setting codec (L16/44100/1) prio: 0
+ 14:06:20.627   pjsipDll.cpp  Setting codec (L16/44100/2) prio: 0
+ 14:06:20.643   pjsipDll.cpp  Setting codec (L16/8000/1) prio: 0
+ 14:06:20.659   pjsipDll.cpp  Setting codec (L16/8000/2) prio: 0
+ 14:06:20.659   pjsipDll.cpp  Setting codec (L16/16000/1) prio: 0
+ 14:06:20.674   pjsipDll.cpp  Setting codec (L16/16000/2) prio: 0
+ 14:06:20.690   pjsipDll.cpp  Setting codec (L16/32000/1) prio: 0
+ 14:06:20.690   pjsipDll.cpp  Setting codec (L16/32000/2) prio: 0
+ 14:06:20.705   pjsipDll.cpp  Setting codec (L16/48000/1) prio: 0
+ 14:06:20.721   pjsipDll.cpp  Setting codec (L16/48000/2) prio: 0
+ 14:06:24.746    tsx0BBE2BAC  Timeout timer event
+ 14:06:24.746    tsx0BBE2BAC  State changed from Completed to Terminated, event=TIMER
+ 14:06:24.746    tsx0BBE2BAC  Timeout timer event
+ 14:06:24.746    tsx0BBE2BAC  State changed from Terminated to Destroyed, event=TIMER
+ 14:06:24.746   tdta0BBE1B40  Destroying txdata Request msg REGISTER/cseq=45189 (tdta0BBE1B40)
+ 14:06:24.746    tsx0BBE2BAC  Transaction destroyed!
+ 14:06:25.552    tsx0BBE4DEC  Timeout timer event
+ 14:06:25.552    tsx0BBE4DEC  State changed from Completed to Terminated, event=TIMER
+ 14:06:25.552    tsx0BBE4DEC  Timeout timer event
+ 14:06:25.552    tsx0BBE4DEC  State changed from Terminated to Destroyed, event=TIMER
+ 14:06:25.552   tdta0BBE3D80  Destroying txdata Request msg PUBLISH/cseq=18509 (tdta0BBE3D80)
+ 14:06:25.552    tsx0BBE4DEC  Transaction destroyed!
+ 14:06:34.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:06:34.742   tdta0BBE1B40  Destroying txdata raw
+ 14:06:49.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:06:49.742   tdta0BBE1B40  Destroying txdata raw
+ 14:07:04.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:07:04.742   tdta0BBE1B40  Destroying txdata raw
+ 14:07:19.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:07:19.742   tdta0BBE1B40  Destroying txdata raw
+ 14:07:34.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:07:34.742   tdta0BBE1B40  Destroying txdata raw
+ 14:07:49.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:07:49.742   tdta0BBE1B40  Destroying txdata raw
+ 14:08:04.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:08:04.742   tdta0BBE1B40  Destroying txdata raw
+ 14:08:19.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:08:19.742   tdta0BBE1B40  Destroying txdata raw
+ 14:08:34.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:08:34.742   tdta0BBE1B40  Destroying txdata raw
+ 14:08:49.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:08:49.742   tdta0BBE1B40  Destroying txdata raw
+ 14:09:04.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:09:04.742   tdta0BBE1B40  Destroying txdata raw
+ 14:09:19.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:09:19.742   tdta0BBE1B40  Destroying txdata raw
+ 14:09:34.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:09:34.742   tdta0BBE1B40  Destroying txdata raw
+ 14:09:49.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:09:49.742   tdta0BBE1B40  Destroying txdata raw
+ 14:10:04.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:10:04.742   tdta0BBE1B40  Destroying txdata raw
+ 14:10:19.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:10:19.742   tdta0BBE1B40  Destroying txdata raw
+ 14:10:34.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:10:34.742   tdta0BBE1B40  Destroying txdata raw
+ 14:10:49.742    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:10:49.742   tdta0BBE1B40  Destroying txdata raw
+ 14:11:04.744    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:11:04.744   tdta0BBE1B40  Destroying txdata raw
+ 14:11:19.104       endpoint  Request msg PUBLISH/cseq=32834 (tdta0BBEA538) created.
+ 14:11:19.104    tsx0BBE23B4  Transaction created for Request msg PUBLISH/cseq=32835 (tdta0BBEA538)
+ 14:11:19.104    tsx0BBE23B4  Sending Request msg PUBLISH/cseq=32835 (tdta0BBEA538) in state Null
+ 14:11:19.104  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:11:19.104   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=32835 (tdta0BBEA538) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj1ce1665ccdd144a3ae4858a5246b0ab4
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=b8fc545df1f1409b9aa29b7ebb42d91c
+To: <sip:username@127.0.0.1>
+Call-ID: ea1dc0a13d084f4a9cd3258f34014ce3
+CSeq: 32835 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="2c5655d60dff4126b261e3871de9dd42">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:11:19.104    tsx0BBE23B4  State changed from Null to Calling, event=TX_MSG
+ 14:11:19.104 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=32835 (rdata0BBD6B6C)
+ 14:11:19.104   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=32835 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj1ce1665ccdd144a3ae4858a5246b0ab4
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=b8fc545df1f1409b9aa29b7ebb42d91c
+To: <sip:username@127.0.0.1>
+Call-ID: ea1dc0a13d084f4a9cd3258f34014ce3
+CSeq: 32835 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="2c5655d60dff4126b261e3871de9dd42">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:11:19.104       endpoint  Response msg 200/PUBLISH/cseq=32835 (tdta0BBE39B0) created
+ 14:11:19.104   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=32835 (tdta0BBE39B0) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj1ce1665ccdd144a3ae4858a5246b0ab4
+Call-ID: ea1dc0a13d084f4a9cd3258f34014ce3
+From: <sip:username@127.0.0.1>;tag=b8fc545df1f1409b9aa29b7ebb42d91c
+To: <sip:username@127.0.0.1>
+CSeq: 32835 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:11:19.104   tdta0BBE39B0  Destroying txdata Response msg 200/PUBLISH/cseq=32835 (tdta0BBE39B0)
+ 14:11:19.104 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=32835 (rdata0BBD6B6C)
+ 14:11:19.104   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=32835 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj1ce1665ccdd144a3ae4858a5246b0ab4
+Call-ID: ea1dc0a13d084f4a9cd3258f34014ce3
+From: <sip:username@127.0.0.1>;tag=b8fc545df1f1409b9aa29b7ebb42d91c
+To: <sip:username@127.0.0.1>
+CSeq: 32835 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:11:19.104    tsx0BBE23B4  Incoming Response msg 200/PUBLISH/cseq=32835 (rdata0BBD6B6C) in state Calling
+ 14:11:19.104    tsx0BBE23B4  State changed from Calling to Completed, event=RX_MSG
+ 14:11:19.746    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:11:19.746   tdta0BBE39B0  Destroying txdata raw
+ 14:11:24.108    tsx0BBE23B4  Timeout timer event
+ 14:11:24.108    tsx0BBE23B4  State changed from Completed to Terminated, event=TIMER
+ 14:11:24.108    tsx0BBE23B4  Timeout timer event
+ 14:11:24.108    tsx0BBE23B4  State changed from Terminated to Destroyed, event=TIMER
+ 14:11:24.108   tdta0BBEA538  Destroying txdata Request msg PUBLISH/cseq=32835 (tdta0BBEA538)
+ 14:11:24.108    tsx0BBE23B4  Transaction destroyed!
+ 14:11:34.752    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:11:34.752   tdta0BBE1B40  Destroying txdata raw
+ 14:11:49.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:11:49.756   tdta0BBE1B40  Destroying txdata raw
+ 14:12:04.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:12:04.756   tdta0BBE1B40  Destroying txdata raw
+ 14:12:19.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:12:19.756   tdta0BBE1B40  Destroying txdata raw
+ 14:12:34.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:12:34.756   tdta0BBE1B40  Destroying txdata raw
+ 14:12:49.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:12:49.756   tdta0BBE1B40  Destroying txdata raw
+ 14:13:04.756    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:13:04.756   tdta0BBE1B40  Destroying txdata raw
+ 14:13:19.761    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:13:19.761   tdta0BBE1B40  Destroying txdata raw
+ 14:13:34.766    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:13:34.766   tdta0BBE1B40  Destroying txdata raw
+ 14:13:49.767    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:13:49.767   tdta0BBE1B40  Destroying txdata raw
+ 14:14:04.767    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:14:04.767   tdta0BBE1B40  Destroying txdata raw
+ 14:14:19.767    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:14:19.767   tdta0BBE1B40  Destroying txdata raw
+ 14:14:34.767    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:14:34.767   tdta0BBE1B40  Destroying txdata raw
+ 14:14:49.767    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:14:49.767   tdta0BBE1B40  Destroying txdata raw
+ 14:15:04.774    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:15:04.774   tdta0BBE1B40  Destroying txdata raw
+ 14:15:19.774    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:15:19.774   tdta0BBE1B40  Destroying txdata raw
+ 14:15:34.774    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:15:34.774   tdta0BBE1B40  Destroying txdata raw
+ 14:15:49.779    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:15:49.779   tdta0BBE1B40  Destroying txdata raw
+ 14:16:04.779    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:16:04.779   tdta0BBE1B40  Destroying txdata raw
+ 14:16:19.109       endpoint  Request msg PUBLISH/cseq=34893 (tdta0BBEA538) created.
+ 14:16:19.109    tsx0BBE23B4  Transaction created for Request msg PUBLISH/cseq=34894 (tdta0BBEA538)
+ 14:16:19.109    tsx0BBE23B4  Sending Request msg PUBLISH/cseq=34894 (tdta0BBEA538) in state Null
+ 14:16:19.109  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:16:19.109   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=34894 (tdta0BBEA538) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPje010a8609b8947068b1f11d8d99f7c0a
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=7efe26fea99149209b7ff7c753e69231
+To: <sip:username@127.0.0.1>
+Call-ID: 86600a09c0b14fe193860d4d2b9c9feb
+CSeq: 34894 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="de967d6ea31c4a3985524e36599c6f8f">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:16:19.719    tsx0BBE23B4  State changed from Null to Calling, event=TX_MSG
+ 14:16:19.719 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=34894 (rdata0BBD6B6C)
+ 14:16:19.719   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=34894 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPje010a8609b8947068b1f11d8d99f7c0a
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=7efe26fea99149209b7ff7c753e69231
+To: <sip:username@127.0.0.1>
+Call-ID: 86600a09c0b14fe193860d4d2b9c9feb
+CSeq: 34894 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="de967d6ea31c4a3985524e36599c6f8f">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:16:19.719       endpoint  Response msg 200/PUBLISH/cseq=34894 (tdta0BBE39B0) created
+ 14:16:19.719   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=34894 (tdta0BBE39B0) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPje010a8609b8947068b1f11d8d99f7c0a
+Call-ID: 86600a09c0b14fe193860d4d2b9c9feb
+From: <sip:username@127.0.0.1>;tag=7efe26fea99149209b7ff7c753e69231
+To: <sip:username@127.0.0.1>
+CSeq: 34894 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:16:19.719   tdta0BBE39B0  Destroying txdata Response msg 200/PUBLISH/cseq=34894 (tdta0BBE39B0)
+ 14:16:19.719 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=34894 (rdata0BBD6B6C)
+ 14:16:19.719   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=34894 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPje010a8609b8947068b1f11d8d99f7c0a
+Call-ID: 86600a09c0b14fe193860d4d2b9c9feb
+From: <sip:username@127.0.0.1>;tag=7efe26fea99149209b7ff7c753e69231
+To: <sip:username@127.0.0.1>
+CSeq: 34894 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:16:19.719    tsx0BBE23B4  Incoming Response msg 200/PUBLISH/cseq=34894 (rdata0BBD6B6C) in state Calling
+ 14:16:19.719    tsx0BBE23B4  State changed from Calling to Completed, event=RX_MSG
+ 14:16:19.779    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:16:19.779   tdta0BBE39B0  Destroying txdata raw
+ 14:16:24.719    tsx0BBE23B4  Timeout timer event
+ 14:16:24.719    tsx0BBE23B4  State changed from Completed to Terminated, event=TIMER
+ 14:16:24.719    tsx0BBE23B4  Timeout timer event
+ 14:16:24.719    tsx0BBE23B4  State changed from Terminated to Destroyed, event=TIMER
+ 14:16:24.719   tdta0BBEA538  Destroying txdata Request msg PUBLISH/cseq=34894 (tdta0BBEA538)
+ 14:16:24.719    tsx0BBE23B4  Transaction destroyed!
+ 14:16:34.779    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:16:34.779   tdta0BBE1B40  Destroying txdata raw
+ 14:16:49.779    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:16:49.779   tdta0BBE1B40  Destroying txdata raw
+ 14:17:04.782    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:17:04.782   tdta0BBE1B40  Destroying txdata raw
+ 14:17:19.784    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:17:19.784   tdta0BBE1B40  Destroying txdata raw
+ 14:17:34.792    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:17:34.792   tdta0BBE1B40  Destroying txdata raw
+ 14:17:49.794    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:17:49.794   tdta0BBE1B40  Destroying txdata raw
+ 14:18:04.799    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:18:04.799   tdta0BBE1B40  Destroying txdata raw
+ 14:18:19.802    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:18:19.802   tdta0BBE1B40  Destroying txdata raw
+ 14:18:34.804    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:18:34.804   tdta0BBE1B40  Destroying txdata raw
+ 14:18:49.810    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:18:49.810   tdta0BBE1B40  Destroying txdata raw
+ 14:19:04.812    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:19:04.812   tdta0BBE1B40  Destroying txdata raw
+ 14:19:19.817    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:19:19.817   tdta0BBE1B40  Destroying txdata raw
+ 14:19:34.825    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:19:34.825   tdta0BBE1B40  Destroying txdata raw
+ 14:19:49.832    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:19:49.832   tdta0BBE1B40  Destroying txdata raw
+ 14:20:04.832    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:20:04.832   tdta0BBE1B40  Destroying txdata raw
+ 14:20:19.837    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:20:19.837   tdta0BBE1B40  Destroying txdata raw
+ 14:20:34.837    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:20:34.837   tdta0BBE1B40  Destroying txdata raw
+ 14:20:49.837    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:20:49.837   tdta0BBE1B40  Destroying txdata raw
+ 14:21:04.845    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:21:04.845   tdta0BBE1B40  Destroying txdata raw
+ 14:21:19.757       endpoint  Request msg PUBLISH/cseq=40836 (tdta0BBEA538) created.
+ 14:21:19.757    tsx0BBE23B4  Transaction created for Request msg PUBLISH/cseq=40837 (tdta0BBEA538)
+ 14:21:19.757    tsx0BBE23B4  Sending Request msg PUBLISH/cseq=40837 (tdta0BBEA538) in state Null
+ 14:21:19.757  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:21:19.757   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=40837 (tdta0BBEA538) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj3c7fc7a95bec456c8b8b07e8f70a9c57
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=194fca38bb934950a39e214aebc69e12
+To: <sip:username@127.0.0.1>
+Call-ID: fb69f7fdf37e440b848f44cdd17598f6
+CSeq: 40837 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="22d759b353b747de9b0762b86dbcc55e">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:21:19.757    tsx0BBE23B4  State changed from Null to Calling, event=TX_MSG
+ 14:21:19.757 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=40837 (rdata0BBD6B6C)
+ 14:21:19.757   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=40837 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj3c7fc7a95bec456c8b8b07e8f70a9c57
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=194fca38bb934950a39e214aebc69e12
+To: <sip:username@127.0.0.1>
+Call-ID: fb69f7fdf37e440b848f44cdd17598f6
+CSeq: 40837 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="22d759b353b747de9b0762b86dbcc55e">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:21:19.757       endpoint  Response msg 200/PUBLISH/cseq=40837 (tdta0BBE39B0) created
+ 14:21:19.757   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=40837 (tdta0BBE39B0) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj3c7fc7a95bec456c8b8b07e8f70a9c57
+Call-ID: fb69f7fdf37e440b848f44cdd17598f6
+From: <sip:username@127.0.0.1>;tag=194fca38bb934950a39e214aebc69e12
+To: <sip:username@127.0.0.1>
+CSeq: 40837 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:21:19.757   tdta0BBE39B0  Destroying txdata Response msg 200/PUBLISH/cseq=40837 (tdta0BBE39B0)
+ 14:21:19.757 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=40837 (rdata0BBD6B6C)
+ 14:21:19.757   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=40837 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj3c7fc7a95bec456c8b8b07e8f70a9c57
+Call-ID: fb69f7fdf37e440b848f44cdd17598f6
+From: <sip:username@127.0.0.1>;tag=194fca38bb934950a39e214aebc69e12
+To: <sip:username@127.0.0.1>
+CSeq: 40837 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:21:20.372    tsx0BBE23B4  Incoming Response msg 200/PUBLISH/cseq=40837 (rdata0BBD6B6C) in state Calling
+ 14:21:20.372    tsx0BBE23B4  State changed from Calling to Completed, event=RX_MSG
+ 14:21:20.372    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:21:20.372   tdta0BBE39B0  Destroying txdata raw
+ 14:21:25.372    tsx0BBE23B4  Timeout timer event
+ 14:21:25.372    tsx0BBE23B4  State changed from Completed to Terminated, event=TIMER
+ 14:21:25.372    tsx0BBE23B4  Timeout timer event
+ 14:21:25.372    tsx0BBE23B4  State changed from Terminated to Destroyed, event=TIMER
+ 14:21:25.372   tdta0BBEA538  Destroying txdata Request msg PUBLISH/cseq=40837 (tdta0BBEA538)
+ 14:21:25.372    tsx0BBE23B4  Transaction destroyed!
+ 14:21:35.377    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:21:35.377   tdta0BBE1B40  Destroying txdata raw
+ 14:21:50.380    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:21:50.380   tdta0BBE1B40  Destroying txdata raw
+ 14:22:05.380    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:22:05.380   tdta0BBE1B40  Destroying txdata raw
+ 14:22:20.387    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:22:20.387   tdta0BBE1B40  Destroying txdata raw
+ 14:22:35.387    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:22:35.387   tdta0BBE1B40  Destroying txdata raw
+ 14:22:50.387    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:22:50.387   tdta0BBE1B40  Destroying txdata raw
+ 14:23:05.387    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:23:05.387   tdta0BBE1B40  Destroying txdata raw
+ 14:23:20.388    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:23:20.388   tdta0BBE1B40  Destroying txdata raw
+ 14:23:35.388    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:23:35.388   tdta0BBE1B40  Destroying txdata raw
+ 14:23:50.390    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:23:50.390   tdta0BBE1B40  Destroying txdata raw
+ 14:24:05.390    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:24:05.390   tdta0BBE1B40  Destroying txdata raw
+ 14:24:20.398    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:24:20.398   tdta0BBE1B40  Destroying txdata raw
+ 14:24:35.398    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:24:35.398   tdta0BBE1B40  Destroying txdata raw
+ 14:24:50.398    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:24:50.398   tdta0BBE1B40  Destroying txdata raw
+ 14:25:05.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:25:05.405   tdta0BBE1B40  Destroying txdata raw
+ 14:25:20.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:25:20.405   tdta0BBE1B40  Destroying txdata raw
+ 14:25:35.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:25:35.405   tdta0BBE1B40  Destroying txdata raw
+ 14:25:50.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:25:50.405   tdta0BBE1B40  Destroying txdata raw
+ 14:26:05.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:26:05.405   tdta0BBE1B40  Destroying txdata raw
+ 14:26:19.765       endpoint  Request msg PUBLISH/cseq=51426 (tdta0BBEA538) created.
+ 14:26:19.765    tsx0BBE23B4  Transaction created for Request msg PUBLISH/cseq=51427 (tdta0BBEA538)
+ 14:26:19.765    tsx0BBE23B4  Sending Request msg PUBLISH/cseq=51427 (tdta0BBEA538) in state Null
+ 14:26:19.765  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:26:19.765   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=51427 (tdta0BBEA538) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj90ea82ddf867412180208efdeb788731
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=d799f6956e304c0bac76811f0a056807
+To: <sip:username@127.0.0.1>
+Call-ID: 08666c959df74f6aa0ebe516610105ae
+CSeq: 51427 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="bd0a060a9e3544d383e873471cbb6780">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:26:19.765    tsx0BBE23B4  State changed from Null to Calling, event=TX_MSG
+ 14:26:19.765 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=51427 (rdata0BBD6B6C)
+ 14:26:19.765   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=51427 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj90ea82ddf867412180208efdeb788731
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=d799f6956e304c0bac76811f0a056807
+To: <sip:username@127.0.0.1>
+Call-ID: 08666c959df74f6aa0ebe516610105ae
+CSeq: 51427 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="bd0a060a9e3544d383e873471cbb6780">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:26:19.765       endpoint  Response msg 200/PUBLISH/cseq=51427 (tdta0BBE39B0) created
+ 14:26:19.765   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=51427 (tdta0BBE39B0) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj90ea82ddf867412180208efdeb788731
+Call-ID: 08666c959df74f6aa0ebe516610105ae
+From: <sip:username@127.0.0.1>;tag=d799f6956e304c0bac76811f0a056807
+To: <sip:username@127.0.0.1>
+CSeq: 51427 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:26:19.765   tdta0BBE39B0  Destroying txdata Response msg 200/PUBLISH/cseq=51427 (tdta0BBE39B0)
+ 14:26:19.765 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=51427 (rdata0BBD6B6C)
+ 14:26:19.765   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=51427 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj90ea82ddf867412180208efdeb788731
+Call-ID: 08666c959df74f6aa0ebe516610105ae
+From: <sip:username@127.0.0.1>;tag=d799f6956e304c0bac76811f0a056807
+To: <sip:username@127.0.0.1>
+CSeq: 51427 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:26:19.765    tsx0BBE23B4  Incoming Response msg 200/PUBLISH/cseq=51427 (rdata0BBD6B6C) in state Calling
+ 14:26:19.765    tsx0BBE23B4  State changed from Calling to Completed, event=RX_MSG
+ 14:26:20.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:26:20.405   tdta0BBE39B0  Destroying txdata raw
+ 14:26:24.765    tsx0BBE23B4  Timeout timer event
+ 14:26:24.765    tsx0BBE23B4  State changed from Completed to Terminated, event=TIMER
+ 14:26:24.765    tsx0BBE23B4  Timeout timer event
+ 14:26:24.765    tsx0BBE23B4  State changed from Terminated to Destroyed, event=TIMER
+ 14:26:24.765   tdta0BBEA538  Destroying txdata Request msg PUBLISH/cseq=51427 (tdta0BBEA538)
+ 14:26:24.765    tsx0BBE23B4  Transaction destroyed!
+ 14:26:35.405    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:26:35.405   tdta0BBE1B40  Destroying txdata raw
+ 14:26:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:26:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:27:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:27:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:27:20.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:27:20.406   tdta0BBE1B40  Destroying txdata raw
+ 14:27:35.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:27:35.406   tdta0BBE1B40  Destroying txdata raw
+ 14:27:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:27:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:28:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:28:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:28:20.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:28:20.406   tdta0BBE1B40  Destroying txdata raw
+ 14:28:35.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:28:35.406   tdta0BBE1B40  Destroying txdata raw
+ 14:28:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:28:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:29:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:29:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:29:20.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:29:20.406   tdta0BBE1B40  Destroying txdata raw
+ 14:29:35.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:29:35.406   tdta0BBE1B40  Destroying txdata raw
+ 14:29:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:29:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:30:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:30:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:30:20.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:30:20.406   tdta0BBE1B40  Destroying txdata raw
+ 14:30:35.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:30:35.406   tdta0BBE1B40  Destroying txdata raw
+ 14:30:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:30:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:31:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:31:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:31:19.766       endpoint  Request msg PUBLISH/cseq=33850 (tdta0BBEA538) created.
+ 14:31:19.766    tsx0BBE23B4  Transaction created for Request msg PUBLISH/cseq=33851 (tdta0BBEA538)
+ 14:31:19.766    tsx0BBE23B4  Sending Request msg PUBLISH/cseq=33851 (tdta0BBEA538) in state Null
+ 14:31:19.766  sip_resolve.c  Target '127.0.0.1:0' type=Unspecified resolved to '127.0.0.1:5060' type=UDP (UDP transport)
+ 14:31:19.766   pjsua_core.c  TX 663 bytes Request msg PUBLISH/cseq=33851 (tdta0BBEA538) to UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj2106f2242b044f749893f11009281846
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=11171c1f09d9495f848d1627e19fb296
+To: <sip:username@127.0.0.1>
+Call-ID: 51ba2481540a42deba93141ca1a323b1
+CSeq: 33851 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="97ff3c4b3f0444f19dc74e5b4d24bd57">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:31:19.766    tsx0BBE23B4  State changed from Null to Calling, event=TX_MSG
+ 14:31:19.766 sip_endpoint.c  Processing incoming message: Request msg PUBLISH/cseq=33851 (rdata0BBD6B6C)
+ 14:31:19.766   pjsua_core.c  RX 663 bytes Request msg PUBLISH/cseq=33851 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+PUBLISH sip:username@127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport;branch=z9hG4bKPj2106f2242b044f749893f11009281846
+Max-Forwards: 70
+From: <sip:username@127.0.0.1>;tag=11171c1f09d9495f848d1627e19fb296
+To: <sip:username@127.0.0.1>
+Call-ID: 51ba2481540a42deba93141ca1a323b1
+CSeq: 33851 PUBLISH
+Event: presence
+User-Agent: Sipek on PJSUA v1.3/win32
+Content-Type: application/pidf+xml
+Content-Length:   233
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence entity="sip:username@127.0.0.1" xmlns="urn:ietf:params:xml:ns:pidf">
+ <tuple id="97ff3c4b3f0444f19dc74e5b4d24bd57">
+  <status>
+   <basic>open</basic>
+  </status>
+ </tuple>
+</presence>
+
+--end msg--
+ 14:31:20.386       endpoint  Response msg 200/PUBLISH/cseq=33851 (tdta0BBE39B0) created
+ 14:31:20.386   pjsua_core.c  TX 317 bytes Response msg 200/PUBLISH/cseq=33851 (tdta0BBE39B0) to UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj2106f2242b044f749893f11009281846
+Call-ID: 51ba2481540a42deba93141ca1a323b1
+From: <sip:username@127.0.0.1>;tag=11171c1f09d9495f848d1627e19fb296
+To: <sip:username@127.0.0.1>
+CSeq: 33851 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:31:20.386   tdta0BBE39B0  Destroying txdata Response msg 200/PUBLISH/cseq=33851 (tdta0BBE39B0)
+ 14:31:20.386 sip_endpoint.c  Processing incoming message: Response msg 200/PUBLISH/cseq=33851 (rdata0BBD6B6C)
+ 14:31:20.386   pjsua_core.c  RX 317 bytes Response msg 200/PUBLISH/cseq=33851 (rdata0BBD6B6C) from UDP 127.0.0.1:5060:
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.2.101:5060;rport=5060;received=127.0.0.1;branch=z9hG4bKPj2106f2242b044f749893f11009281846
+Call-ID: 51ba2481540a42deba93141ca1a323b1
+From: <sip:username@127.0.0.1>;tag=11171c1f09d9495f848d1627e19fb296
+To: <sip:username@127.0.0.1>
+CSeq: 33851 PUBLISH
+Content-Length:  0
+
+
+--end msg--
+ 14:31:20.386    tsx0BBE23B4  Incoming Response msg 200/PUBLISH/cseq=33851 (rdata0BBD6B6C) in state Calling
+ 14:31:20.386    tsx0BBE23B4  State changed from Calling to Completed, event=RX_MSG
+ 14:31:20.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:31:20.406   tdta0BBE39B0  Destroying txdata raw
+ 14:31:25.386    tsx0BBE23B4  Timeout timer event
+ 14:31:25.386    tsx0BBE23B4  State changed from Completed to Terminated, event=TIMER
+ 14:31:25.386    tsx0BBE23B4  Timeout timer event
+ 14:31:25.386    tsx0BBE23B4  State changed from Terminated to Destroyed, event=TIMER
+ 14:31:25.386   tdta0BBEA538  Destroying txdata Request msg PUBLISH/cseq=33851 (tdta0BBEA538)
+ 14:31:25.386    tsx0BBE23B4  Transaction destroyed!
+ 14:31:35.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:31:35.406   tdta0BBE1B40  Destroying txdata raw
+ 14:31:50.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:31:50.406   tdta0BBE1B40  Destroying txdata raw
+ 14:32:05.406    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:32:05.406   tdta0BBE1B40  Destroying txdata raw
+ 14:32:20.411    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:32:20.411   tdta0BBE1B40  Destroying txdata raw
+ 14:32:35.417    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:32:35.417   tdta0BBE1B40  Destroying txdata raw
+ 14:32:50.417    pjsua_acc.c  Sending 2 bytes keep-alive packet for acc 0 to 127.0.0.1:5060
+ 14:32:50.417   tdta0BBE1B40  Destroying txdata raw

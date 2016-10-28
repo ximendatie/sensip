@@ -1,0 +1,2 @@
+C:\Users\zhangjingbin\Desktop\中间件项目\MDW-SENSIP023\Backup\sensipmdw\bin\sensip-mdw.exe.config
+C:\Users\zhangjingbin\Desktop\中间件项目\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\sensip-mdw.csproj.GenerateResource.Cache

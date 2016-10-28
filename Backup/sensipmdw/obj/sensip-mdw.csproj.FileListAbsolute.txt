@@ -1,0 +1,15 @@
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\bin\sensip-mdw.exe.config
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\ResolveAssemblyReference.cache
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.Language.LanguageRules.drl
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.Resources.trash.bmp
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.AboutBox.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.BuddyForm.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.ChatForm.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.Elements.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.MainFrm.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.SettingsForm.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.ErrorDialog.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.Splash.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.StartRFIDFrm.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\Sensip.ServerConfig.resources
+D:\MDW-SENSIP023\MDW-SENSIP023\Backup\sensipmdw\obj\Debug\sensip-mdw.csproj.GenerateResource.Cache

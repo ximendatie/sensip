@@ -1,0 +1,83 @@
+<Calllog>
+  <Record>
+    <Name>
+    </Name>
+    <Number>66</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-3 15:57:07</Time>
+    <Count>3</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>333</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-21 10:10:05</Time>
+    <Count>0</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>55</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-23 22:19:29</Time>
+    <Count>5</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>obj003</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-23 23:53:53</Time>
+    <Count>0</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>watcher002</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-24 13:00:26</Time>
+    <Count>1</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>watcher001</Number>
+    <Duration>00:00:19.8281250</Duration>
+    <Time>2009-9-24 14:45:00</Time>
+    <Count>2</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>watcher007</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-9-29 16:57:57</Time>
+    <Count>1</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>888</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2009-10-13 15:25:55</Time>
+    <Count>7</Count>
+    <Type>0</Type>
+  </Record>
+  <Record>
+    <Name>
+    </Name>
+    <Number>client</Number>
+    <Duration>00:00:00</Duration>
+    <Time>2010-12-18 23:29:46</Time>
+    <Count>1</Count>
+    <Type>0</Type>
+  </Record>
+</Calllog>

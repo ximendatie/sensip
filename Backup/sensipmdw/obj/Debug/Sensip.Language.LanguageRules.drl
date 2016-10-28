@@ -1,0 +1,92 @@
+package languageParser
+
+rule "rule1"
+	when
+		m : Message( setInputMsg == "temp")
+	then				
+		m.setOutputMsg = "Temperature";
+end
+
+rule "rule2"
+	when
+		m : Message( setInputMsg == "temperature" )
+	then		
+		m.setOutputMsg = "Temperature";
+end
+
+rule "rule3"
+	when
+		m : Message( setInputMsg == "T" )
+	then		
+		m.setOutputMsg = "Temperature";
+end
+
+rule "rule4"
+	when
+		m : Message( setInputMsg == "humidity" )
+	then		
+		m.setOutputMsg = "Humidity";
+end
+
+rule "rule5"
+	when
+		m : Message( setInputMsg == "humid" )
+	then		
+		m.setOutputMsg = "Humidity";
+end
+
+rule "rule6"
+	when
+		m : Message( setInputMsg == "H" )
+	then		
+		m.setOutputMsg = "Humidity";
+end
+
+rule "rule7"
+	when
+		m : Message( setInputMsg == "location" )
+	then		
+		m.setOutputMsg = "Location";
+end
+
+rule "rule8"
+	when
+		m : Message( setInputMsg == "loc" )
+	then		
+		m.setOutputMsg = "Location";
+end
+
+rule "rule9"
+	when
+		m : Message( setInputMsg == "L" )
+	then		
+		m.setOutputMsg = "Location";
+end
+
+rule "rule10"
+	when
+		m : Message( setInputMsg == "hello" )
+	then		
+		m.setOutputMsg = "Hello!";
+end
+
+rule "rule11"
+	when
+		m : Message( setInputMsg == "hi" )
+	then		
+		m.setOutputMsg = "Hello!";
+end
+
+rule "rule12"
+	when
+		m : Message( setInputMsg == "bye" )
+	then		
+		m.setOutputMsg = "Goodbye!";
+end
+
+rule "rule13"
+	when
+		m : Message( setInputMsg == "88" )
+	then		
+		m.setOutputMsg = "Goodbye!";
+end

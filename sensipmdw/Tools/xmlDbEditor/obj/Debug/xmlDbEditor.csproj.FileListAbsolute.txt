@@ -1,0 +1,7 @@
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.exe
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.pdb
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\bin\Debug\xmlDbEditor.exe
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\bin\Debug\xmlDbEditor.pdb
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.csprojResolveAssemblyReference.cache
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.Form1.resources
+D:\学习相关\sensip\sensipmdw\Tools\xmlDbEditor\obj\Debug\xmlDbEditor.csproj.GenerateResource.Cache

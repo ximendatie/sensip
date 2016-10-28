@@ -1,0 +1,122 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="PART">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="PARTNUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="LOCATION">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="PART_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DEPARTMENT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PART>
+    <ID>1001</ID>
+    <PARTNUMBER>101045</PARTNUMBER>
+    <DESC>FILTER, FUEL #2010SM RACOR</DESC>
+  </PART>
+  <PART>
+    <ID>1002</ID>
+    <PARTNUMBER>101050</PARTNUMBER>
+    <DESC>FILTER, #2020SM RACOR</DESC>
+  </PART>
+  <PART>
+    <ID>1003</ID>
+    <PARTNUMBER>151005</PARTNUMBER>
+    <DESC>BRUSH, CHIP 1"</DESC>
+  </PART>
+  <PART>
+    <ID>1004</ID>
+    <PARTNUMBER>151010</PARTNUMBER>
+    <DESC>BRUSH, CHIP 2"</DESC>
+  </PART>
+  <PART>
+    <ID>1005</ID>
+    <PARTNUMBER>151015</PARTNUMBER>
+    <DESC>BRUSH, CHIP 3"</DESC>
+  </PART>
+  <LOCATION>
+    <ID>1001</ID>
+    <NAME>A001</NAME>
+    <DEPT_ID>1001</DEPT_ID>
+    <QTY>5</QTY>
+    <PART_ID>1001</PART_ID>
+  </LOCATION>
+  <LOCATION>
+    <ID>1002</ID>
+    <NAME>A002</NAME>
+    <DEPT_ID>1001</DEPT_ID>
+    <QTY>6</QTY>
+    <PART_ID>1002</PART_ID>
+  </LOCATION>
+  <LOCATION>
+    <ID>1003</ID>
+    <NAME>A003</NAME>
+    <DEPT_ID>1001</DEPT_ID>
+    <QTY>3</QTY>
+    <PART_ID>1003</PART_ID>
+  </LOCATION>
+  <LOCATION>
+    <ID>1004</ID>
+    <NAME>A004</NAME>
+    <DEPT_ID>1001</DEPT_ID>
+    <QTY>2</QTY>
+    <PART_ID>1004</PART_ID>
+  </LOCATION>
+  <LOCATION>
+    <ID>1005</ID>
+    <NAME>A005</NAME>
+    <DEPT_ID>1001</DEPT_ID>
+    <QTY>9</QTY>
+    <PART_ID>1005</PART_ID>
+  </LOCATION>
+  <LOCATION>
+    <ID>1006</ID>
+    <NAME>W12</NAME>
+    <DEPT_ID>1006</DEPT_ID>
+    <QTY>20</QTY>
+    <PART_ID>1003</PART_ID>
+  </LOCATION>
+  <DEPARTMENT>
+    <ID>1001</ID>
+    <NAME>PARTS</NAME>
+  </DEPARTMENT>
+  <DEPARTMENT>
+    <ID>1002</ID>
+    <NAME>MOORING</NAME>
+  </DEPARTMENT>
+  <DEPARTMENT>
+    <ID>1003</ID>
+    <NAME>CARPENTRY</NAME>
+  </DEPARTMENT>
+  <DEPARTMENT>
+    <ID>1004</ID>
+    <NAME>MARINE STORE</NAME>
+  </DEPARTMENT>
+</NewDataSet>

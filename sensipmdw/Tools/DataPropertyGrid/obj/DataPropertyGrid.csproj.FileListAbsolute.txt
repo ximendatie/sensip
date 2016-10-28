@@ -1,0 +1,9 @@
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\bin\Debug\DataPropertyGrid.dll
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\bin\Debug\DataPropertyGrid.pdb
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\ResolveAssemblyReference.cache
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\DataPropertyGrid.DataPropertyGrid.bmp
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\LuisRuiz.DataPropertyGrid.resources
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\frmCodigo.resources
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\DataPropertyGrid.csproj.GenerateResource.Cache
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\DataPropertyGrid.dll
+C:\Download\DataPropertyGrid_src\DataPropertyGrid\DataPropertyGrid\obj\Debug\DataPropertyGrid.pdb

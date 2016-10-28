@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="xmlDbEditor">
+</Property><Property Name="Solution File" Value="C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\xmlDbEditor.sln">
+</Property><Property Name="Date" Value="Thursday, July 30, 2009">
+</Property><Property Name="Time" Value="22:01 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="xmlDbEditor.sln" Description="File successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\xmlDbEditor.sln">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.csproj" Description="Project file successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\xmlDbEditor.csproj">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.csproj.user" Description="Project user file successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\xmlDbEditor.csproj.user">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.cs" Description="File successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\xmlDbEditor.cs">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="App.ico" Description="File successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.resx" Description="File successfully backed up as C:\Download\xmlSchemaEditor_src\projects.net\xmlDbEditor\Backup\xmlDbEditor.resx">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="xmlDbEditor" Source="xmlDbEditor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="xmlDbEditor.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="xmlDbEditor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="xmlDbEditor" Source="xmlDbEditor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

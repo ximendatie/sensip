@@ -1,0 +1,1620 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="768" height="405" viewBox="0 0 768 405" xml:space="preserve"
+xmlns:a3="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" a3:scriptImplementation="Adobe">
+<script a3:scriptImplementation="Adobe" type="text/ecmascript" xlink:href="attributes.es" />
+<script a3:scriptImplementation="Adobe" type="text/ecmascript" xlink:href="box.es" />
+<animate  id="anim" attributeName="viewBox" begin="undefined" dur="1s" values="" keyTimes="0; 1" keySplines="0 .75 0.25 1" calcMode="spline" fill="freeze" />
+<rect id="start" x="-1000" y="-1000" width="2768" height="2555" onclick="zoomto('start')" style="fill-opacity:0"/>
+<rect x="0" y="0" width="0" height="0" id="mouseoverBox" style="fill:grey;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+
+
+<g onclick="zoomto('110')" onmouseover="highlight('110')">
+<rect x="408" y="333" width="51" height="54" id="110" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('110')"/>
+<text text-anchor="middle" x="433" y="365.4" pointer-events="none">110</text>
+<g id="c110_0" fill="none" stroke="none">
+	<text id="username110_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="423" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon110_0" cx="423" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon110_0','username110_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c110_1" fill="none" stroke="none">
+	<text id="username110_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="444" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon110_1" cx="444" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon110_1','username110_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c110_2" fill="none" stroke="none">
+	<text id="username110_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="423" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon110_2" cx="423" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon110_2','username110_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c110_3" fill="none" stroke="none">
+	<text id="username110_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="444" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon110_3" cx="444" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon110_3','username110_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('112')" onmouseover="highlight('112')">
+<rect x="459" y="333" width="51" height="54" id="112" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('112')"/>
+<text text-anchor="middle" x="484" y="365.4" pointer-events="none">112</text>
+<g id="c112_0" fill="none" stroke="none">
+	<text id="username112_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="474" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon112_0" cx="474" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon112_0','username112_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c112_1" fill="none" stroke="none">
+	<text id="username112_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="495" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon112_1" cx="495" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon112_1','username112_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c112_2" fill="none" stroke="none">
+	<text id="username112_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="474" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon112_2" cx="474" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon112_2','username112_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c112_3" fill="none" stroke="none">
+	<text id="username112_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="495" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon112_3" cx="495" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon112_3','username112_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('114')" onmouseover="highlight('114')">
+<rect x="510" y="333" width="51" height="54" id="114" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('114')"/>
+<text text-anchor="middle" x="535" y="365.4" pointer-events="none">114</text>
+<g id="c114_0" fill="none" stroke="none">
+	<text id="username114_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="525" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon114_0" cx="525" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon114_0','username114_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c114_1" fill="none" stroke="none">
+	<text id="username114_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="546" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon114_1" cx="546" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon114_1','username114_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c114_2" fill="none" stroke="none">
+	<text id="username114_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="525" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon114_2" cx="525" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon114_2','username114_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c114_3" fill="none" stroke="none">
+	<text id="username114_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="546" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon114_3" cx="546" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon114_3','username114_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('306A')" onmouseover="highlight('306A')">
+<rect x="453" y="189" width="102" height="99" id="306A" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('306A')"/>
+<text text-anchor="middle" x="504" y="248.4" pointer-events="none">306A</text>
+
+<g id="c306A_d" fill="none" stroke="none">
+	<text id="username306A_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="468" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="cx" attributeType="XML" values="460;486" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="cy" attributeType="XML" values="206;232" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306A_0" cx="468" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306A_0','username306A_0')" onmouseout="hoverout()">
+		<animate attributeName="cx" attributeType="XML" values="460;486" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="cy" attributeType="XML" values="206;232" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+</g>
+
+<g id="c306A_0" fill="none" stroke="none">
+	<text id="username306A_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="468" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306A_0" cx="468" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306A_0','username306A_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306A_1" fill="none" stroke="none">
+	<text id="username306A_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="540" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306A_1" cx="540" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306A_1','username306A_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306A_2" fill="none" stroke="none">
+	<text id="username306A_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="468" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306A_2" cx="468" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306A_2','username306A_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306A_3" fill="none" stroke="none">
+	<text id="username306A_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="540" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306A_3" cx="540" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306A_3','username306A_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('143')" onmouseover="highlight('143')">
+<rect x="453" y="90" width="102" height="99" id="143" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('143')"/>
+<text text-anchor="middle" x="504" y="149.4" pointer-events="none">143</text>
+<g id="c143_0" fill="none" stroke="none">
+	<text id="username143_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="468" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon143_0" cx="468" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon143_0','username143_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c143_1" fill="none" stroke="none">
+	<text id="username143_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="540" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon143_1" cx="540" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon143_1','username143_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c143_2" fill="none" stroke="none">
+	<text id="username143_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="468" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon143_2" cx="468" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon143_2','username143_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c143_3" fill="none" stroke="none">
+	<text id="username143_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="540" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon143_3" cx="540" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon143_3','username143_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('116')" onmouseover="highlight('116')">
+<rect x="561" y="333" width="51" height="54" id="116" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('116')"/>
+<text text-anchor="middle" x="586" y="365.4" pointer-events="none">116</text>
+<g id="c116_0" fill="none" stroke="none">
+	<text id="username116_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="576" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon116_0" cx="576" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon116_0','username116_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c116_1" fill="none" stroke="none">
+	<text id="username116_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="597" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon116_1" cx="597" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon116_1','username116_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c116_2" fill="none" stroke="none">
+	<text id="username116_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="576" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon116_2" cx="576" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon116_2','username116_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c116_3" fill="none" stroke="none">
+	<text id="username116_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="597" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon116_3" cx="597" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon116_3','username116_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('306B')" onmouseover="highlight('306B')">
+<rect x="555" y="189" width="51" height="99" id="306B" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('306B')"/>
+<text text-anchor="middle" x="580" y="248.4" pointer-events="none">306B</text>
+<g id="c306B_0" fill="none" stroke="none">
+	<text id="username306B_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="570" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306B_0" cx="570" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306B_0','username306B_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306B_1" fill="none" stroke="none">
+	<text id="username306B_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="591" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306B_1" cx="591" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306B_1','username306B_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306B_2" fill="none" stroke="none">
+	<text id="username306B_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="570" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306B_2" cx="570" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306B_2','username306B_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c306B_3" fill="none" stroke="none">
+	<text id="username306B_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="591" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon306B_3" cx="591" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon306B_3','username306B_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('118')" onmouseover="highlight('118')">
+<rect x="612" y="333" width="57" height="54" id="118" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('118')"/>
+<text text-anchor="middle" x="640" y="365.4" pointer-events="none">118</text>
+<g id="c118_0" fill="none" stroke="none">
+	<text id="username118_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="627" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon118_0" cx="627" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon118_0','username118_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c118_1" fill="none" stroke="none">
+	<text id="username118_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="654" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon118_1" cx="654" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon118_1','username118_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c118_2" fill="none" stroke="none">
+	<text id="username118_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="627" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon118_2" cx="627" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon118_2','username118_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c118_3" fill="none" stroke="none">
+	<text id="username118_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="654" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon118_3" cx="654" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon118_3','username118_3')" onmouseout="hoverout()"/>
+</g>
+
+
+</g>
+<g onclick="zoomto('120')" onmouseover="highlight('120')">
+<rect x="669" y="333" width="51" height="54" id="120" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('120')"/>
+<text text-anchor="middle" x="694" y="365.4" pointer-events="none">120</text>
+<g id="c120_0" fill="none" stroke="none">
+	<text id="username120_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="684" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon120_0" cx="684" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon120_0','username120_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c120_1" fill="none" stroke="none">
+	<text id="username120_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="705" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon120_1" cx="705" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon120_1','username120_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c120_2" fill="none" stroke="none">
+	<text id="username120_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="684" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon120_2" cx="684" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon120_2','username120_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c120_3" fill="none" stroke="none">
+	<text id="username120_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="705" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon120_3" cx="705" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon120_3','username120_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('122')" onmouseover="highlight('122')">
+<rect x="720" y="306" width="48" height="81" id="122" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('122')"/>
+<text text-anchor="middle" x="744" y="354.6" pointer-events="none">122</text>
+<g id="c122_0" fill="none" stroke="none">
+	<text id="username122_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="735" cy="321" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon122_0" cx="735" cy="321" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon122_0','username122_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c122_1" fill="none" stroke="none">
+	<text id="username122_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="321" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon122_1" cx="753" cy="321" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon122_1','username122_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c122_2" fill="none" stroke="none">
+	<text id="username122_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="735" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon122_2" cx="735" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon122_2','username122_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c122_3" fill="none" stroke="none">
+	<text id="username122_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon122_3" cx="753" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon122_3','username122_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('124')" onmouseover="highlight('124')">
+<rect x="708" y="240" width="60" height="66" id="124" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('124')"/>
+<text text-anchor="middle" x="738" y="279.6" pointer-events="none">124</text>
+<g id="c124_0" fill="none" stroke="none">
+	<text id="username124_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="255" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon124_0" cx="723" cy="255" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon124_0','username124_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c124_1" fill="none" stroke="none">
+	<text id="username124_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="255" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon124_1" cx="753" cy="255" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon124_1','username124_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c124_2" fill="none" stroke="none">
+	<text id="username124_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="291" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon124_2" cx="723" cy="291" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon124_2','username124_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c124_3" fill="none" stroke="none">
+	<text id="username124_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="291" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon124_3" cx="753" cy="291" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon124_3','username124_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('126')" onmouseover="highlight('126')">
+<rect x="708" y="189" width="60" height="51" id="126" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('126')"/>
+<text text-anchor="middle" x="738" y="219.6" pointer-events="none">126</text>
+<g id="c126_0" fill="none" stroke="none">
+	<text id="username126_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon126_0" cx="723" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon126_0','username126_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c126_1" fill="none" stroke="none">
+	<text id="username126_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon126_1" cx="753" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon126_1','username126_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c126_2" fill="none" stroke="none">
+	<text id="username126_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="225" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon126_2" cx="723" cy="225" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon126_2','username126_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c126_3" fill="none" stroke="none">
+	<text id="username126_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="225" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon126_3" cx="753" cy="225" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon126_3','username126_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('128')" onmouseover="highlight('128')">
+<rect x="708" y="132" width="60" height="57" id="128" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('128')"/>
+<text text-anchor="middle" x="738" y="166.2" pointer-events="none">128</text>
+<g id="c128_0" fill="none" stroke="none">
+	<text id="username128_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="147" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon128_0" cx="723" cy="147" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon128_0','username128_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c128_1" fill="none" stroke="none">
+	<text id="username128_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="147" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon128_1" cx="753" cy="147" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon128_1','username128_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c128_2" fill="none" stroke="none">
+	<text id="username128_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="723" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon128_2" cx="723" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon128_2','username128_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c128_3" fill="none" stroke="none">
+	<text id="username128_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon128_3" cx="753" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon128_3','username128_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('130')" onmouseover="highlight('130')">
+<rect x="717" y="0" width="51" height="132" id="130" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('130')"/>
+<text text-anchor="middle" x="742" y="79.2" pointer-events="none">130</text>
+<g id="c130_0" fill="none" stroke="none">
+	<text id="username130_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="732" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon130_0" cx="732" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon130_0','username130_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c130_1" fill="none" stroke="none">
+	<text id="username130_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon130_1" cx="753" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon130_1','username130_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c130_2" fill="none" stroke="none">
+	<text id="username130_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="732" cy="117" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon130_2" cx="732" cy="117" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon130_2','username130_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c130_3" fill="none" stroke="none">
+	<text id="username130_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="753" cy="117" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon130_3" cx="753" cy="117" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon130_3','username130_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('132')" onmouseover="highlight('132')">
+<rect x="648" y="0" width="69" height="48" id="132" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('132')"/>
+<text text-anchor="middle" x="682" y="28.8" pointer-events="none">132</text>
+<g id="c132_0" fill="none" stroke="none">
+	<text id="username132_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="663" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon132_0" cx="663" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon132_0','username132_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c132_1" fill="none" stroke="none">
+	<text id="username132_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="702" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon132_1" cx="702" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon132_1','username132_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c132_2" fill="none" stroke="none">
+	<text id="username132_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="663" cy="33" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon132_2" cx="663" cy="33" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon132_2','username132_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c132_3" fill="none" stroke="none">
+	<text id="username132_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="702" cy="33" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon132_3" cx="702" cy="33" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon132_3','username132_3')" onmouseout="hoverout()"/>
+</g>
+
+
+
+</g>
+<g onclick="zoomto('140')" onmouseover="highlight('140')">
+<rect x="546" y="0" width="51" height="60" id="140" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('140')"/>
+<text text-anchor="middle" x="571" y="36" pointer-events="none">140</text>
+<g id="c140_0" fill="none" stroke="none">
+	<text id="username140_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="561" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon140_0" cx="561" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon140_0','username140_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c140_1" fill="none" stroke="none">
+	<text id="username140_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="582" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon140_1" cx="582" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon140_1','username140_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c140_2" fill="none" stroke="none">
+	<text id="username140_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="561" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon140_2" cx="561" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon140_2','username140_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c140_3" fill="none" stroke="none">
+	<text id="username140_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="582" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon140_3" cx="582" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon140_3','username140_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('142')" onmouseover="highlight('142')">
+<rect x="489" y="0" width="57" height="60" id="142" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('142')"/>
+<text text-anchor="middle" x="517" y="36" pointer-events="none">142</text>
+<g id="c142_0" fill="none" stroke="none">
+	<text id="username142_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="504" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon142_0" cx="504" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon142_0','username142_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c142_1" fill="none" stroke="none">
+	<text id="username142_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="531" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon142_1" cx="531" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon142_1','username142_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c142_2" fill="none" stroke="none">
+	<text id="username142_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="504" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon142_2" cx="504" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon142_2','username142_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c142_3" fill="none" stroke="none">
+	<text id="username142_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="531" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon142_3" cx="531" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon142_3','username142_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('144')" onmouseover="highlight('144')">
+<rect x="429" y="0" width="60" height="60" id="144" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('144')"/>
+<text text-anchor="middle" x="459" y="36" pointer-events="none">144</text>
+<g id="c144_0" fill="none" stroke="none">
+	<text id="username144_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="444" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon144_0" cx="444" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon144_0','username144_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c144_1" fill="none" stroke="none">
+	<text id="username144_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="474" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon144_1" cx="474" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon144_1','username144_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c144_2" fill="none" stroke="none">
+	<text id="username144_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="444" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon144_2" cx="444" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon144_2','username144_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c144_3" fill="none" stroke="none">
+	<text id="username144_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="474" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon144_3" cx="474" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon144_3','username144_3')" onmouseout="hoverout()"/>
+</g>
+
+
+</g>
+<g onclick="zoomto('146')" onmouseover="highlight('146')">
+<rect x="372" y="0" width="57" height="60" id="146" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('146')"/>
+<text text-anchor="middle" x="400" y="36" pointer-events="none">146</text>
+<g id="c146_0" fill="none" stroke="none">
+	<text id="username146_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="387" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon146_0" cx="387" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon146_0','username146_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c146_1" fill="none" stroke="none">
+	<text id="username146_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="414" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon146_1" cx="414" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon146_1','username146_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c146_2" fill="none" stroke="none">
+	<text id="username146_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="387" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon146_2" cx="387" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon146_2','username146_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c146_3" fill="none" stroke="none">
+	<text id="username146_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="414" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon146_3" cx="414" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon146_3','username146_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('148')" onmouseover="highlight('148')">
+<rect x="309" y="0" width="63" height="60" id="148" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('148')"/>
+<text text-anchor="middle" x="340" y="36" pointer-events="none">148</text>
+<g id="c148_0" fill="none" stroke="none">
+	<text id="username148_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="324" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon148_0" cx="324" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon148_0','username148_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c148_1" fill="none" stroke="none">
+	<text id="username148_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="357" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon148_1" cx="357" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon148_1','username148_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c148_2" fill="none" stroke="none">
+	<text id="username148_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="324" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon148_2" cx="324" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon148_2','username148_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c148_3" fill="none" stroke="none">
+	<text id="username148_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="357" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon148_3" cx="357" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon148_3','username148_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('301K')" onmouseover="highlight('301K')">
+<rect x="258" y="0" width="51" height="60" id="301K" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('301K')"/>
+<text text-anchor="middle" x="283" y="36" pointer-events="none">301K</text>
+<g id="c301K_0" fill="none" stroke="none">
+	<text id="username301K_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="273" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon301K_0" cx="273" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon301K_0','username301K_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c301K_1" fill="none" stroke="none">
+	<text id="username301K_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="294" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon301K_1" cx="294" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon301K_1','username301K_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c301K_2" fill="none" stroke="none">
+	<text id="username301K_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="273" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon301K_2" cx="273" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon301K_2','username301K_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c301K_3" fill="none" stroke="none">
+	<text id="username301K_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="294" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon301K_3" cx="294" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon301K_3','username301K_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('151')" onmouseover="highlight('151')">
+<rect x="141" y="90" width="156" height="99" id="151" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('151')"/>
+<text text-anchor="middle" x="219" y="149.4" pointer-events="none">151</text>
+<g id="c151_0" fill="none" stroke="none">
+	<text id="username151_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="156" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon151_0" cx="156" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon151_0','username151_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c151_1" fill="none" stroke="none">
+	<text id="username151_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="282" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon151_1" cx="282" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon151_1','username151_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c151_2" fill="none" stroke="none">
+	<text id="username151_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="156" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon151_2" cx="156" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon151_2','username151_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c151_3" fill="none" stroke="none">
+	<text id="username151_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="282" cy="174" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon151_3" cx="282" cy="174" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon151_3','username151_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('152')" onmouseover="highlight('152')">
+<rect x="195" y="0" width="63" height="60" id="152" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('152')"/>
+<text text-anchor="middle" x="226" y="36" pointer-events="none">152</text>
+<g id="c152_0" fill="none" stroke="none">
+	<text id="username152_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="210" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon152_0" cx="210" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon152_0','username152_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c152_1" fill="none" stroke="none">
+	<text id="username152_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="243" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon152_1" cx="243" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon152_1','username152_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c152_2" fill="none" stroke="none">
+	<text id="username152_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="210" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon152_2" cx="210" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon152_2','username152_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c152_3" fill="none" stroke="none">
+	<text id="username152_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="243" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon152_3" cx="243" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon152_3','username152_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('154')" onmouseover="highlight('154')">
+<rect x="138" y="0" width="57" height="60" id="154" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('154')"/>
+<text text-anchor="middle" x="166" y="36" pointer-events="none">154</text>
+<g id="c154_0" fill="none" stroke="none">
+	<text id="username154_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="153" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon154_0" cx="153" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon154_0','username154_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c154_1" fill="none" stroke="none">
+	<text id="username154_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="180" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon154_1" cx="180" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon154_1','username154_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c154_2" fill="none" stroke="none">
+	<text id="username154_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="153" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon154_2" cx="153" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon154_2','username154_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c154_3" fill="none" stroke="none">
+	<text id="username154_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="180" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon154_3" cx="180" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon154_3','username154_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('156')" onmouseover="highlight('156')">
+<rect x="84" y="0" width="54" height="60" id="156" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('156')"/>
+<text text-anchor="middle" x="111" y="36" pointer-events="none">156</text>
+<g id="c156_0" fill="none" stroke="none">
+	<text id="username156_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="99" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156_0" cx="99" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156_0','username156_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156_1" fill="none" stroke="none">
+	<text id="username156_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="123" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156_1" cx="123" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156_1','username156_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156_2" fill="none" stroke="none">
+	<text id="username156_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="99" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156_2" cx="99" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156_2','username156_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156_3" fill="none" stroke="none">
+	<text id="username156_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="123" cy="45" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156_3" cx="123" cy="45" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156_3','username156_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('156A')" onmouseover="highlight('156A')">
+<rect x="0" y="0" width="84" height="51" id="156A" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('156A')"/>
+<text text-anchor="middle" x="42" y="30.6" pointer-events="none">156A</text>
+<g id="c156A_0" fill="none" stroke="none">
+	<text id="username156A_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156A_0" cx="15" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156A_0','username156A_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156A_1" fill="none" stroke="none">
+	<text id="username156A_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="69" cy="15" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156A_1" cx="69" cy="15" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156A_1','username156A_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156A_2" fill="none" stroke="none">
+	<text id="username156A_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="36" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156A_2" cx="15" cy="36" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156A_2','username156A_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156A_3" fill="none" stroke="none">
+	<text id="username156A_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="69" cy="36" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156A_3" cx="69" cy="36" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156A_3','username156A_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('156B')" onmouseover="highlight('156B')">
+<rect x="0" y="51" width="54" height="69" id="156B" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('156B')"/>
+<text text-anchor="middle" x="27" y="92.4" pointer-events="none">156B</text>
+<g id="c156B_0" fill="none" stroke="none">
+	<text id="username156B_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="66" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156B_0" cx="15" cy="66" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156B_0','username156B_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156B_1" fill="none" stroke="none">
+	<text id="username156B_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="39" cy="66" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156B_1" cx="39" cy="66" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156B_1','username156B_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156B_2" fill="none" stroke="none">
+	<text id="username156B_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156B_2" cx="15" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156B_2','username156B_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156B_3" fill="none" stroke="none">
+	<text id="username156B_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="39" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156B_3" cx="39" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156B_3','username156B_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('156C')" onmouseover="highlight('156C')">
+<rect x="54" y="96" width="24" height="24" id="156C" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('156C')"/>
+<text text-anchor="middle" x="66" y="110.4" pointer-events="none">156C</text>
+<g id="c156C_0" fill="none" stroke="none">
+	<text id="username156C_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="69" cy="111" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156C_0" cx="69" cy="111" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156C_0','username156C_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156C_1" fill="none" stroke="none">
+	<text id="username156C_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="63" cy="111" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156C_1" cx="63" cy="111" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156C_1','username156C_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156C_2" fill="none" stroke="none">
+	<text id="username156C_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="69" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156C_2" cx="69" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156C_2','username156C_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c156C_3" fill="none" stroke="none">
+	<text id="username156C_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="63" cy="105" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon156C_3" cx="63" cy="105" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon156C_3','username156C_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('162')" onmouseover="highlight('162')">
+<rect x="57" y="180" width="54" height="42" id="162" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('162')"/>
+<text text-anchor="middle" x="84" y="205.2" pointer-events="none">162</text>
+<g id="c162_0" fill="none" stroke="none">
+	<text id="username162_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="195" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon162_0" cx="72" cy="195" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon162_0','username162_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c162_1" fill="none" stroke="none">
+	<text id="username162_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="195" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon162_1" cx="96" cy="195" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon162_1','username162_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c162_2" fill="none" stroke="none">
+	<text id="username162_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="207" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon162_2" cx="72" cy="207" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon162_2','username162_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c162_3" fill="none" stroke="none">
+	<text id="username162_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="207" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon162_3" cx="96" cy="207" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon162_3','username162_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('164')" onmouseover="highlight('164')">
+<rect x="57" y="222" width="54" height="111" id="164" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('164')"/>
+<text text-anchor="middle" x="84" y="288.6" pointer-events="none">164</text>
+<g id="c164_0" fill="none" stroke="none">
+	<text id="username164_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="237" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164_0" cx="72" cy="237" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164_0','username164_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164_1" fill="none" stroke="none">
+	<text id="username164_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="237" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164_1" cx="96" cy="237" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164_1','username164_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164_2" fill="none" stroke="none">
+	<text id="username164_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="318" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164_2" cx="72" cy="318" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164_2','username164_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164_3" fill="none" stroke="none">
+	<text id="username164_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="318" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164_3" cx="96" cy="318" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164_3','username164_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('164A')" onmouseover="highlight('164A')">
+<rect x="0" y="180" width="57" height="66" id="164A" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('164A')"/>
+<text text-anchor="middle" x="28" y="219.6" pointer-events="none">164A</text>
+<g id="c164A_0" fill="none" stroke="none">
+	<text id="username164A_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="195" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164A_0" cx="15" cy="195" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164A_0','username164A_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164A_1" fill="none" stroke="none">
+	<text id="username164A_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="195" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164A_1" cx="42" cy="195" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164A_1','username164A_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164A_2" fill="none" stroke="none">
+	<text id="username164A_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="231" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164A_2" cx="15" cy="231" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164A_2','username164A_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164A_3" fill="none" stroke="none">
+	<text id="username164A_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="231" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164A_3" cx="42" cy="231" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164A_3','username164A_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('164B')" onmouseover="highlight('164B')">
+<rect x="0" y="246" width="57" height="51" id="164B" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('164B')"/>
+<text text-anchor="middle" x="28" y="276.6" pointer-events="none">164B</text>
+<g id="c164B_0" fill="none" stroke="none">
+	<text id="username164B_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="261" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164B_0" cx="15" cy="261" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164B_0','username164B_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164B_1" fill="none" stroke="none">
+	<text id="username164B_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="261" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164B_1" cx="42" cy="261" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164B_1','username164B_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164B_2" fill="none" stroke="none">
+	<text id="username164B_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="282" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164B_2" cx="15" cy="282" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164B_2','username164B_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164B_3" fill="none" stroke="none">
+	<text id="username164B_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="282" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164B_3" cx="42" cy="282" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164B_3','username164B_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('164C')" onmouseover="highlight('164C')">
+<rect x="0" y="297" width="57" height="90" id="164C" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('164C')"/>
+<text text-anchor="middle" x="28" y="351" pointer-events="none">164C</text>
+<g id="c164C_0" fill="none" stroke="none">
+	<text id="username164C_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="312" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164C_0" cx="15" cy="312" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164C_0','username164C_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164C_1" fill="none" stroke="none">
+	<text id="username164C_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="312" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164C_1" cx="42" cy="312" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164C_1','username164C_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164C_2" fill="none" stroke="none">
+	<text id="username164C_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="15" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164C_2" cx="15" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164C_2','username164C_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164C_3" fill="none" stroke="none">
+	<text id="username164C_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="42" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164C_3" cx="42" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164C_3','username164C_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('164D')" onmouseover="highlight('164D')">
+<rect x="57" y="333" width="54" height="54" id="164D" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('164D')"/>
+<text text-anchor="middle" x="84" y="365.4" pointer-events="none">164D</text>
+<g id="c164D_0" fill="none" stroke="none">
+	<text id="username164D_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164D_0" cx="72" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164D_0','username164D_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164D_1" fill="none" stroke="none">
+	<text id="username164D_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164D_1" cx="96" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164D_1','username164D_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164D_2" fill="none" stroke="none">
+	<text id="username164D_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="72" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164D_2" cx="72" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164D_2','username164D_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c164D_3" fill="none" stroke="none">
+	<text id="username164D_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="96" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon164D_3" cx="96" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon164D_3','username164D_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('170')" onmouseover="highlight('170')">
+<rect x="111" y="333" width="63" height="54" id="170" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('170')"/>
+<text text-anchor="middle" x="142" y="365.4" pointer-events="none">170</text>
+<g id="c170_0" fill="none" stroke="none">
+	<text id="username170_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="126" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon170_0" cx="126" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon170_0','username170_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c170_1" fill="none" stroke="none">
+	<text id="username170_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="159" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon170_1" cx="159" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon170_1','username170_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c170_2" fill="none" stroke="none">
+	<text id="username170_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="126" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon170_2" cx="126" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon170_2','username170_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c170_3" fill="none" stroke="none">
+	<text id="username170_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="159" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon170_3" cx="159" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon170_3','username170_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('172')" onmouseover="highlight('172')">
+<rect x="174" y="333" width="60" height="54" id="172" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('172')"/>
+<text text-anchor="middle" x="204" y="365.4" pointer-events="none">172</text>
+<g id="c172_0" fill="none" stroke="none">
+	<text id="username172_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="189" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon172_0" cx="189" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon172_0','username172_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c172_1" fill="none" stroke="none">
+	<text id="username172_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="219" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon172_1" cx="219" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon172_1','username172_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c172_2" fill="none" stroke="none">
+	<text id="username172_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="189" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon172_2" cx="189" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon172_2','username172_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c172_3" fill="none" stroke="none">
+	<text id="username172_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="219" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon172_3" cx="219" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon172_3','username172_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('174')" onmouseover="highlight('174')">
+<rect x="234" y="333" width="66" height="54" id="174" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('174')"/>
+<text text-anchor="middle" x="267" y="365.4" pointer-events="none">174</text>
+<g id="c174_0" fill="none" stroke="none">
+	<text id="username174_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="249" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon174_0" cx="249" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon174_0','username174_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c174_1" fill="none" stroke="none">
+	<text id="username174_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="285" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon174_1" cx="285" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon174_1','username174_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c174_2" fill="none" stroke="none">
+	<text id="username174_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="249" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon174_2" cx="249" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon174_2','username174_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c174_3" fill="none" stroke="none">
+	<text id="username174_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="285" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon174_3" cx="285" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon174_3','username174_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('175')" onmouseover="highlight('175')">
+<rect x="141" y="189" width="156" height="99" id="175" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('175')"/>
+<text text-anchor="middle" x="219" y="248.4" pointer-events="none">175</text>
+<g id="c175_0" fill="none" stroke="none">
+	<text id="username175_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="156" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon175_0" cx="156" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon175_0','username175_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c175_1" fill="none" stroke="none">
+	<text id="username175_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="282" cy="204" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon175_1" cx="282" cy="204" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon175_1','username175_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c175_2" fill="none" stroke="none">
+	<text id="username175_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="156" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon175_2" cx="156" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon175_2','username175_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c175_3" fill="none" stroke="none">
+	<text id="username175_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="282" cy="273" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon175_3" cx="282" cy="273" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon175_3','username175_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<g onclick="zoomto('176')" onmouseover="highlight('176')">
+<rect x="300" y="333" width="54" height="54" id="176" fill-opacity="0" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9" onmouseout="unHighlight('176')"/>
+<text text-anchor="middle" x="327" y="365.4" pointer-events="none">176</text>
+<g id="c176_0" fill="none" stroke="none">
+	<text id="username176_0" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="315" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon176_0" cx="315" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon176_0','username176_0')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c176_1" fill="none" stroke="none">
+	<text id="username176_1" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="339" cy="348" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon176_1" cx="339" cy="348" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon176_1','username176_1')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c176_2" fill="none" stroke="none">
+	<text id="username176_2" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="315" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon176_2" cx="315" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon176_2','username176_2')" onmouseout="hoverout()"/>
+</g>
+
+<g id="c176_3" fill="none" stroke="none">
+	<text id="username176_3" opacity="0" x="0" y="0" font-size="0" pointer-events="none"> </text>
+	<circle cx="339" cy="372" r="12" stroke-width="6" fill="none" pointer-events="none">
+		<animate attributeName="stroke-opacity" attributeType="CSS" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+		<animate attributeName="r" attributeType="XML" values="12;25" dur="1.5s" repeatCount="indefinite"/>
+	</circle>
+	<circle id="beacon176_3" cx="339" cy="372" r="10" stroke-width="6" stroke-opacity="0.01" fill-opacity=".8" onmouseover="hover('beacon176_3','username176_3')" onmouseout="hoverout()"/>
+</g>
+
+</g>
+<line x1="0" y1="0" x2="0" y2="387" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="0" y1="387" x2="267" y2="387" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="99" y1="180" x2="0" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="99" y1="120" x2="99" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="0" y1="120" x2="99" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="0" y1="180" x2="0" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="9" y1="180" x2="0" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="9" y1="120" x2="9" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="18" y1="120" x2="9" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="18" y1="180" x2="18" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="27" y1="180" x2="18" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="27" y1="120" x2="27" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="36" y1="120" x2="27" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="36" y1="180" x2="36" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="45" y1="180" x2="36" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="45" y1="120" x2="45" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="54" y1="120" x2="45" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="54" y1="180" x2="54" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="63" y1="180" x2="54" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="63" y1="120" x2="63" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="72" y1="120" x2="63" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="72" y1="180" x2="72" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="81" y1="180" x2="72" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="81" y1="120" x2="81" y2="180" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="90" y1="120" x2="81" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+<line x1="90" y1="180" x2="90" y2="120" style="fill:white;stroke:black;stroke-width:5;fill-opacity:0.5;stroke-opacity:0.9"/>
+
+
+<rect id="HUD" x="0" y="0" width="0" height="0" fill-opacity="0.75" style="fill:yellow;stroke:black;stroke-width:5" pointer-events="none"/>
+<text id="HUDText" text-anchor="middle" x="0" y="0" font-size="28" pointer-events="none"> </text>
+</svg>
